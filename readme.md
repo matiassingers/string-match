@@ -13,8 +13,8 @@ $ npm install --save string-match
 ```js
 var stringMatch = require('string-match');
 
-stringMatch()
-
+stringMatch('foo bar', /[bc]ar/);
+// => bar
 ```
 
 
@@ -26,10 +26,12 @@ $ npm install --global string-match
 
 ```sh
 $ string-match --help
+  
+  return first match or empty string
 
   Example
-    string-match
-    
+    string-match "foo bar" /[bc]ar/
+    => bar
 ```
 
 

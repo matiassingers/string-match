@@ -1,6 +1,6 @@
 {
   "name": "string-match",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "return first match or empty string",
   "main": "index.js",
   "scripts": {

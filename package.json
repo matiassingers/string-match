@@ -1,0 +1,33 @@
+{
+  "name": "string-match",
+  "version": "0.1.0",
+  "description": "return first match or empty string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "string-match": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matiassingers/string-match"
+  },
+  "author": "Matias Singers <mail@matiassingers.com> (http://mts.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiassingers/string-match/issues"
+  },
+  "homepage": "https://github.com/matiassingers/string-match",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "2.1.0"
+  }
+}
